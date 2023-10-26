@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #363636;
+}
+
+
+header ul{
+    width: 130%;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 22px;
+    justify-content: space-between;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#titulo{
+    margin-top: -16px;
+    font-size: 40px;
+    color: #FF961B;
+}
+
+#direita{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#campopesq{
+    width: 180px;
+    height: 23px;
+    padding-left: 7px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+#pesquisa{
+    display: flex;
+    height: 23px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+#lupa{
+    width: 23px;
+    height: 23px;
+    background-color: #777777;
+    border-radius: 100%;
+    margin-left: -24px;
+    margin-top: 2px;
+}
+#imglupa{
+    width: 20px;
+    margin-top: 1px;
+    margin-left: 1.5px;
+}
+#circulo{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+#imgcirculo{
+    width: 60px;
+    border-radius: 100%;
+}
+
+@media screen and (min-width: 0) and (max-width: 504px){
+    header ul li a{
+        display: none;
+    }
+    #campopesq{
+        width: 160px;
+    }
+    #circulo{
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+    }
+    #imgcirculo{
+        width: 50px;
+        height: 50px;
+    }
+}

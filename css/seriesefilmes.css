@@ -1,0 +1,577 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #363636;
+}
+
+/*AREA DE DESTAQUES*/
+#destaques {
+    width: 100%;
+    height: 420px;
+    background: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -15px;
+}
+
+/* titulo do destaque */
+#destaques h1 {
+    color: #F2A341;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* input bolinhas da section*/
+#destaques input {
+    display: none;
+}
+/* trasição do carrossel*/
+#slidedestaques1:checked~.s1 {
+    margin-left: -0.1%;
+}
+
+#slidedestaques2:checked~.s1 {
+    margin-left: -33.3%;
+}
+
+#slidedestaques3:checked~.s1 {
+    margin-left: -66.7%;
+}
+
+
+/*AREA DE FILMES*/
+#filmes {
+    width: 100%;
+    height: 420px;
+    background: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25px;
+}
+
+/* titulo do Filmes */
+#filmes h1 {
+    color: #F2A341;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* input bolinhas da section*/
+#filmes input {
+    display: none;
+}
+/* trasição do carrossel*/
+#slidefilmes1:checked~.s1 {
+    margin-left: -0.1%;
+}
+
+#slidefilmes2:checked~.s1 {
+    margin-left: -33.3%;
+}
+
+#slidefilmes3:checked~.s1 {
+    margin-left: -66.7%;
+}
+
+
+/*AREA DE SERIES*/
+#series {
+    width: 100%;
+    height: 420px;
+    background: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25px;
+}
+/* titulo do Series */
+#series h1 {
+    color: #F2A341;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+/* input bolinhas da section*/
+#series input {
+    display: none;
+}
+/* ajustes dos slides*/
+.slidesseries {
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+/* slide*/
+.slidesseries {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: .6s;
+}
+
+/* ajuste das imagens no slide*/
+.slideseries img {
+    width: 100%;
+    height: 100%;
+}
+
+/* trasição do carrossel*/
+#slideseries1:checked~.s1 {
+    margin-left: -0.1%;
+}
+
+#slideseries2:checked~.s1 {
+    margin-left: -33.3%;
+}
+
+#slideseries3:checked~.s1 {
+    margin-left: -66.7%;
+}
+
+
+
+/*AREA DE DESENHOS*/
+#desenhos {
+    width: 100%;
+    height: 420px;
+    background: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25px;
+}
+
+/* titulo do Desenhos */
+#desenhos h1 {
+    color: #F2A341;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* input bolinhas da section*/
+#desenhos input {
+    display: none;
+}
+/* trasição do carrossel*/
+#slidedesenhos1:checked~.s1 {
+    margin-left: -0.1%;
+}
+
+#slidedesenhos2:checked~.s1 {
+    margin-left: -33.3%;
+}
+
+#slidedesenhos3:checked~.s1 {
+    margin-left: -66.7%;
+}
+
+/*AREA DE animes*/
+#animes {
+    width: 100%;
+    height: 420px;
+    background: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25px;
+}
+
+/* titulo do Animes */
+#animes h1 {
+    color: #F2A341;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* input bolinhas da section*/
+#animes input {
+    display: none;
+}
+/* trasição do carrossel*/
+#slideanimes1:checked~.s1 {
+    margin-left: -0.1%;
+}
+
+#slideanimes2:checked~.s1 {
+    margin-left: -33.3%;
+}
+
+#slideanimes3:checked~.s1 {
+    margin-left: -66.7%;
+}
+
+/* espaçamento entre as imagens*/
+.containerslide {
+    height: 300px;
+    width: 95%;
+    overflow: hidden;
+}
+
+/* posicionamento do carrosel*/
+.dist {
+    width: 185px;
+    height: 274px;
+    border: 2px solid;
+}
+.dist:hover{
+    width: 200px;
+    height: 296px;
+    transition: .3s;
+}
+
+/* barra com as bolinhas para rodar o carrosel*/
+.navigation {
+    margin-top: 10px;
+    display: flex;
+}
+
+/* bolinhas do carrosel*/
+.bar {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    margin: 6px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .3s;
+    background-color:black;
+}
+
+/* hover nas bolinhas do carrosel*/
+.bar:hover {
+    background: #FF961B;
+}
+
+/* efeito para passar slides*/
+.s1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    animation: transition 20s;
+}
+
+
+
+/* espaçamento entre as imagens*/
+.containerslide {
+    height: 300px;
+    width: 95%;
+    overflow: hidden;
+}
+
+/* posicionamento do carrosel*/
+.dist {
+    width: 185px;
+    height: 274px;
+    border: 1px solid;
+}
+
+/* barra com as bolinhas para rodar o carrosel*/
+.navigation {
+    margin-top: 10px;
+    display: flex;
+}
+
+/* bolinhas do carrosel*/
+.bar {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    margin: 6px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .3s;
+    background-color:black;
+}
+.bar:checked{
+    background: #FF961B;
+}
+/* hover nas bolinhas do carrosel*/
+.bar:hover {
+    background: #FF961B;
+}
+
+/* ajustes dos slides*/
+.slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+
+/* efeito para passar slides*/
+.s1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    animation: transition 20s;
+}
+
+/* slide*/
+.slide {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: .6s;
+}
+
+/* ajuste das imagens no slide*/
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#bar4e5{
+    display: none;
+}
+
+@media screen and (min-width: 0) and (max-width: 504px){
+    .dist{
+        width: 120px;
+        height: 166px;
+    }
+    .dist:hover{
+        width: 150px;
+        height: 207px;
+    }
+    #bar4e5{
+        display: block;
+    }
+    /* espaçamento entre as imagens*/
+    .containerslide {
+        height: 300px;
+        width: 95%;
+        overflow: hidden;
+
+    }
+
+    /* ajustes dos slides*/
+    .slides {
+        display: flex;
+        width: 550%;
+        height: 100%;
+        margin-top: -45px;
+    }
+    .bar{
+        margin-top: -85px;
+    }
+    /*AREA DE DESTAQUES*/
+    #destaques {
+        width: 100%;
+        height: 420px;
+        background: #363636;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -35px;
+    }
+    
+    /* titulo do destaque */
+    #destaques h1 {
+        color: #F2A341;
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    
+    /* input bolinhas da section*/
+    #destaques input {
+        display: none;
+    }
+    #slidedestaques1:checked~.s1 {
+        margin-left: -1%;
+    }
+    
+    #slidedestaques2:checked~.s1 {
+        margin-left: -20.9%;
+    }
+    
+    #slidedestaques3:checked~.s1 {
+        margin-left: -40.9%;
+    }
+    #slidedestaques4:checked~.s1 {
+        margin-left: -60.7%;
+    }
+    
+    #slidedestaques5:checked~.s1 {
+        margin-left: -80.6%;
+    }
+
+    /*AREA DE FILMES*/
+    #filmes {
+        width: 100%;
+        height: 420px;
+        background: #363636;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -120px;
+    }
+    
+    /* titulo do Filmes */
+    #filmes h1 {
+        color: #F2A341;
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    
+    #slidefilmes1:checked~.s1 {
+        margin-left: -1%;
+    }
+    
+    #slidefilmes2:checked~.s1 {
+        margin-left: -20.9%;
+    }
+    
+    #slidefilmes3:checked~.s1 {
+        margin-left: -40.9%;
+    }
+    #slidefilmes4:checked~.s1 {
+        margin-left: -60.7%;
+    }
+    
+    #slidefilmes5:checked~.s1 {
+        margin-left: -80.6%;
+    }
+
+    /*AREA DE series*/
+    #series {
+        width: 100%;
+        height: 420px;
+        background: #363636;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -120px;
+    }
+    
+    /* titulo do Series */
+    #series h1 {
+        color: #F2A341;
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    
+    #slideseries1:checked~.s1 {
+        margin-left: -1%;
+    }
+    
+    #slideseries2:checked~.s1 {
+        margin-left: -20.9%;
+    }
+    
+    #slideseries3:checked~.s1 {
+        margin-left: -40.9%;
+    }
+    #slideseries4:checked~.s1 {
+        margin-left: -60.7%;
+    }
+    
+    #slideseries5:checked~.s1 {
+        margin-left: -80.6%;
+    }
+
+    /*AREA DE desenhos*/
+    #desenhos {
+        width: 100%;
+        height: 420px;
+        background: #363636;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -120px;
+    }
+    
+    /* titulo do Desenhos */
+    #desenhos h1 {
+        color: #F2A341;
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    
+    #slidedesenhos1:checked~.s1 {
+        margin-left: -1%;
+    }
+    
+    #slidedesenhos2:checked~.s1 {
+        margin-left: -20.9%;
+    }
+    
+    #slidedesenhos3:checked~.s1 {
+        margin-left: -40.9%;
+    }
+    #slidedesenhos4:checked~.s1 {
+        margin-left: -60.7%;
+    }
+    
+    #slidedesenhos5:checked~.s1 {
+        margin-left: -80.6%;
+    }
+
+    /*AREA DE ANIMES*/
+    #animes {
+        width: 100%;
+        height: 420px;
+        background: #363636;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -120px;
+    }
+
+    /* titulo do Animes */
+    #animes h1 {
+        color: #F2A341;
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+
+    /* input bolinhas da section*/
+    #animes input {
+        display: none;
+    }
+    #slideanimes1:checked~.s1 {
+        margin-left: -1%;
+    }
+
+    #slideanimes2:checked~.s1 {
+        margin-left: -20.9%;
+    }
+
+    #slideanimes3:checked~.s1 {
+        margin-left: -40.9%;
+    }
+    #slideanimes4:checked~.s1 {
+        margin-left: -60.7%;
+    }
+
+    #slideanimes5:checked~.s1 {
+        margin-left: -80.6%;
+    }
+}
+
+

@@ -1,0 +1,62 @@
+.fimdaspaginas {
+    background: #696969;
+    width: 100%;
+    height: 190px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+.logos {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding-top: 2.9%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+}
+h6{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.tupifooter {
+    color: #FF961B;
+    font-size: 17px;
+    
+}
+.social {
+    width: 50px;
+    height: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+footer {
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+    color: #ffff;
+}
+
+@media screen and (min-width: 0) and (max-width: 504px){
+    .fimdaspaginas{
+        width: 100%;
+        height: 130px;
+        margin-top: 15%;
+    }
+    .logos{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .social{
+        width: 40px;
+        height: 40px;
+    }
+    h6{
+        font-size: 13px;
+    }
+    .tupifooter {
+        font-size: 13px;
+    }
+    
+}

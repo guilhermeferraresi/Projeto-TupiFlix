@@ -1,0 +1,232 @@
+@import 'footer.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+    background: #363636;
+}
+#topo{
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+}
+#topo h1{
+    margin-top: -40px;
+}
+#imgx{
+    width: 35px;
+    margin-left: 95%;
+    margin-top: 5px;
+}
+.base {
+    width: 80%;
+    margin: auto;
+    height: 1780px;
+    background: #363636;
+}
+
+#imgdescricao{
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#descricao{
+    color: #fff;
+    width: 72%;
+}
+#classificacao{
+    display: flex;
+}
+#imgclassificacao{
+    width: 50px;
+    border-radius: 7px;
+}
+#pdiv{
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 24px;
+}
+#pdescricao{
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#pmobile{
+    display: none;
+}
+.imgfilme{
+    width: 260px;
+}
+
+#divimg{
+    position: relative;
+}
+
+.listadeepisodios {
+    width: 800px;
+    height: 1040px;
+    background: #919191;
+    position: absolute;
+    left: 61px;
+    margin-top: 30px;
+    margin-left: 23%;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.assistajaxxxcompleto {
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.episodios {
+    width: 800px;
+    height: 1300px;
+    background: #6D6D6D;
+    position: absolute;
+}
+
+.eps {
+    width: 796px;
+    height: 210px;
+    background: #9b9a9a;
+    border: 2px solid #6D6D6D;
+    position: relative;
+}
+
+.capadovideo {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.descricaodoepisodio {
+    margin-top: 80px;
+    margin-left: 310px;
+    font-size: 20px;
+}
+
+.semifooter {
+    width: 800px;
+    height: 20px;
+    position: relative;
+    margin-top: 1%;
+    background-color: #aaaaaa;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+}
+
+.semifooter2 {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 5px;
+
+}
+
+.redirecionamentoparamaisepisodios {
+    color: #FF961B;
+}
+
+@media screen and (min-width: 0) and (max-width: 504px){
+    #topo{
+        font-size: 19px;
+    }
+    h1{
+        font-size: 33px;
+    }
+    #imgx{
+        width: 30px;
+        margin-left: 88%;
+    }
+    .base{
+        width: 90%;
+        height: 1287px;
+    }
+    
+    .imgfilme{
+        width: 180px;
+    }
+    #divclassificacao{
+        margin-left: 10px;
+    }
+    #imgclassificacao{
+        width: 40px;
+    }
+    #pdiv{
+        margin-left: 10px;
+        font-size: 19px;
+    }
+    #pavaliacao{
+        margin-top: -2px;
+    }
+    #pdescricao{
+        font-size: 13px;
+        margin-left: 10px;
+        margin-top: -3px;
+        display: none;
+    }
+    #pmobile{
+        margin-left: 10px;
+        margin-top: 10%;
+        font-size: 16px;
+        display: block;
+        text-align: justify;
+    }
+    .listadeepisodios{
+        width: 450px;
+        margin-left: -9%;
+        height: 995px;
+    }
+    .episodios{
+        width: 450px;
+        height: 600px;
+    }
+    .eps{
+        width: 446px;
+        height: 145px;
+    }
+    .capadovideo{
+        width: 200px;
+        height: 133px;
+    }
+    .descricaodoepisodio {
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 225px;
+        font-size: 15px;
+    }
+    .semifooter {
+        width: 450px;
+        height: 40px;
+        position: relative;
+        margin-top: 10px;
+        background-color: #aaaaaa;
+        border-radius: 12px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 9%;
+    }
+    
+    .semifooter2 {
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 5px;
+    
+    }
+}

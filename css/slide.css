@@ -1,0 +1,38 @@
+#divcarrocel{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+#carrocel{
+    width: 100%;
+    margin-top: -100px;
+    height: 450px;
+}
+#tituloslide{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    z-index: 3;
+    position: relative;
+}
+
+@media screen and (min-width: 0) and (max-width: 504px){
+    #tituloslide{
+        display: none
+    }
+    #carrocel{
+        height: 900px;
+        width: 100%;
+         
+    }
+    #divcarrocel{
+        position: relative;
+        height: 180px;
+        width: 80%;
+        
+    }
+}
