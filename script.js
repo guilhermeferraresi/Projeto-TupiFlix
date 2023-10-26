@@ -1,5 +1,4 @@
 let imagens = ['oppenheimer fundo.jpg', 'berserk fundo 2.jpg', 'selvagens fundo_resized.jpg', 'gravity falls fundo.jpg', '/img/img5.jpg', 'interestelar fundo.jpg', '/img/img7.jpg'];
-let titulos = ["Assista ja Oppenheimer!", "Assista ja Berseker!", "Assista ja Relatos Selvagens!", "Assista ja Gravity Falls!", "Assista ja The Walking Dead!", "Assista ja Interestrelar!", "Assista ja Bridgerton!"]
 let index = 0;
 let time = 2000;
 

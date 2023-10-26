@@ -18,7 +18,7 @@ body{
     margin-top: -40px;
 }
 #corpo{
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-top: 10px;
 }
@@ -35,7 +35,7 @@ body{
 }
 #descricao{
     color: #fff;
-    width: 72%;
+    width: 68%;
 }
 #classificacao{
     display: flex;
