@@ -19,7 +19,7 @@ body {
     margin: auto;
     bottom: 10%;
     display: flex;
-    margin-top: 6%;
+    margin-top: 8px;
 }
 table {
     width: 100%;
@@ -87,11 +87,14 @@ footer{
     position: relative;
     font-size: 20px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 15px;
 }
 footer span{
     color: #FF961B;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
+}
+p{
+    color: #fff;
 }
 a{
     text-decoration: none;
