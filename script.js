@@ -1,4 +1,4 @@
-let imagens = ['oppenheimer fundo.jpg', 'berserk fundo 2.jpg', 'selvagens fundo_resized.jpg', 'gravity falls fundo.jpg', '/img/img5.jpg', 'interestelar fundo.jpg', '/img/img7.jpg'];
+let imagens = ['oppenheimer fundo.jpg', 'berserk fundo 2.jpg', 'selvagens fundo_resized.jpg', 'gravity falls fundo.jpg', 'img5.jpg', 'interestelar fundo.jpg', 'img7.jpg'];
 let index = 0;
 let time = 2000;
 
