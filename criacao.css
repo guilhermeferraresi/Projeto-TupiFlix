@@ -101,7 +101,7 @@ a{
     color: #fff;
 }
 
-@media screen and (min-width: 0) and (max-width: 504px){
+@media screen and (min-width: 0) and (max-width: 590px){
     .base{
         width: 80%;
     }

@@ -72,7 +72,7 @@ header ul li a{
     border-radius: 100%;
 }
 
-@media screen and (min-width: 0) and (max-width: 504px){
+@media screen and (min-width: 0) and (max-width: 590px){
     header ul li a{
         display: none;
     }

@@ -340,7 +340,7 @@ body{
     display: none;
 }
 
-@media screen and (min-width: 0) and (max-width: 504px){
+@media screen and (min-width: 0) and (max-width: 590px){
     .dist{
         width: 120px;
         height: 166px;
