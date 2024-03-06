@@ -1,21 +1,20 @@
-let imagens = ['oppenheimer fundo.jpg', 'berserk fundo 2.jpg', 'selvagens fundo_resized.jpg', 'gravity falls fundo.jpg', 'img5.jpg', 'interestelar fundo.jpg', 'img7.jpg'];
-let index = 0;
+const imagens = ['oppeheimerSlide.png', 'BerserkSlide.png', 'relatosSelvagensSlide.png', 'gravityFallsSlide.png', 'interestelarSlide.png', 'TheWalkingDeadSlide.png', 'bridgertonSlide.png'];
+let titulos = ["Assista ja Oppenheimer!", "Assista ja Berseker!", "Assista ja Relatos Selvagens!", "Assista ja Gravity Falls!", "Assista ja The Walking Dead!", "Assista ja Interestrelar!", "Assista ja Bridgerton!"]
+let index = -1;
 let time = 2000;
 
+function alterarImagem() {
+    document.getElementById("carrocel").style.opacity = 0.03;
+    setTimeout(() => {
+        index = (index + 1) % imagens.length;
 
-function slideShow(){
-    document.getElementById('carrocel').src = imagens[index];
-     
-    index++;
+        document.getElementById("carrocel").src = imagens[index];
 
-    if(index == imagens.length){
-        index = 0;
-    }
-
-    setTimeout('slideShow()', time);
+        document.getElementById("carrocel").style.opacity = 1;
+    }, 500);
 }
 
-slideShow();
+setInterval(alterarImagem, 2500);
 
 /*Função validar */
 function validar() {

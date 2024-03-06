@@ -1,16 +1,17 @@
 #divcarrocel{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    margin-top: 30px;
-    height: 450px;
-    overflow: hidden;
+    margin-top: 50px;
+    height: 600px;
+    overflow: visible;
     display: flex;
     flex-direction: column;
 }
 #carrocel{
     width: 100%;
-    margin-top: -100px;
-    height: 450px;
+    margin-top: -40px;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
 }
 #tituloslide{
     color: #fff;
@@ -18,9 +19,11 @@
     margin: auto;
     z-index: 3;
     position: relative;
+    transition: opacity 0.5s ease-in-out;
 }
 
-@media screen and (min-width: 0) and (max-width: 590px){
+
+@media screen and (min-width: 0) and (max-width: 504px){
     #tituloslide{
         display: none
     }
@@ -31,8 +34,8 @@
     }
     #divcarrocel{
         position: relative;
-        height: 180px;
-        width: 80%;
+        height: 250px;
+        width: 90%;
         
     }
 }
