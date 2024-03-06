@@ -26,7 +26,7 @@ function validar() {
     let senha2 = document.getElementById('password').classList;
   
     /*fazendo  if e else para validar os campos */
-    if ((usuario == 'indio' && senha == 'tupiflix@2023') || (usuario == usuario2 && senha == senha2)) {
+    if ((usuario == 'indio' && senha == 'tupi') || (usuario == usuario2 && senha == senha2)) {
       //chama a tela do index
       window.open('perfil.html');
       //fecha a tela login

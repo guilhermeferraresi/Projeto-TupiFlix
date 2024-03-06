@@ -76,7 +76,7 @@ body {
     position: absolute;
     left: 61px;
     margin-top: 30px;
-    margin-left: 23%;
+    margin-left: 14%;
     border-radius: 15px;
     justify-content: center;
     text-align: center;
@@ -142,7 +142,7 @@ body {
     color: #FF961B;
 }
 
-@media screen and (min-width: 0) and (max-width: 504px){
+@media screen and (min-width: 0) and (max-width: 590px){
     #topo{
         font-size: 19px;
     }
@@ -156,6 +156,7 @@ body {
     .base{
         width: 90%;
         height: 1287px;
+        padding-bottom: 18%;
     }
     
     .imgfilme{
@@ -190,7 +191,7 @@ body {
     .listadeepisodios{
         width: 450px;
         margin-left: -9%;
-        height: 995px;
+        height: 970px;
     }
     .episodios{
         width: 450px;
@@ -219,7 +220,7 @@ body {
         border-radius: 12px;
         text-align: center;
         justify-content: center;
-        margin-top: 9%;
+        margin-top: -3%;
     }
     
     .semifooter2 {

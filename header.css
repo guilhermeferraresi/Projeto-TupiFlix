@@ -8,8 +8,6 @@ header{
     justify-content: space-between;
     background-color: #363636;
 }
-
-
 header ul{
     width: 130%;
     display: flex;

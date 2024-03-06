@@ -9,7 +9,7 @@ body {
 }
 .base {
     width: 38%;
-    height: 500px;
+    height: 440px;
     border-radius: 15px;
     background-color: #ffffff;
     border: 5px solid #000000;
@@ -41,31 +41,31 @@ table h1 {
     line-height: normal;
 }
 #txb{
-    width: 270px;
+    width: 340px;
     height: 40px;
     border:2px solid #000;
     border-radius:5px;
     font-size: 20px;
     padding-left: 15px;
-    margin-left: calc((100% - 270px)/2);
+    margin-left: calc((100% - 340px)/2);
 }
 #txbs{
-    width: 270px;
+    width: 340px;
     height: 40px;
     border:2px solid #000;
     border-radius:5px;
     font-size: 20px;
     padding-left: 15px;
-    margin-left: calc((100% - 270px)/2);
+    margin-left: calc((100% - 340px)/2);
 }
 #txbs2{
-    width: 270px;
+    width: 340px;
     height: 40px;
     border:2px solid #000;
     border-radius:5px;
     font-size: 20px;
     padding-left: 15px;
-    margin-left: calc((100% - 270px)/2);
+    margin-left: calc((100% - 340px)/2);
 }
 #btncriar {
     width: 250px;
@@ -87,11 +87,10 @@ footer{
     position: relative;
     font-size: 20px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 footer span{
     color: #FF961B;
-    padding-bottom: 50px;
 }
 p{
     color: #fff;
